@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(228, 212, 212, 0.363);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Card - 1 */
+.card{
+    width: 25%;
+    height: 60rem;
+    background-color: white;
+}
+.card:hover{
+    cursor: pointer;
+    transition: all ease-in-out 2s;
+    transform: scale(120%);
+    filter: grayscale(100%);
+}
+.card-det{
+    width: 98%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.top{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.img-icon{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background: url(./img/profile.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-det{
+    width: 100%;
+    height: auto;
+}
+.img-det h5{
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+.img-det h5 i{
+    padding: 1rem;
+}
+.img-det p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.food{
+    width: 100%;
+    height: 45%;
+    background: url(./img/Easy-Sesame-Noodles-Recipe-7-1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.food p{
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(16, 15, 15);
+    background-color: white;
+}
+.food-box{
+    width: 10rem;
+    height: auto;
+    position: relative;
+    top: 15.5rem;
+    display: flex;
+}
+.BOX{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white{
+    background-color: white;
+}
+.white i{
+    font-size: 1.6rem;
+    color: black;
+}
+.black{
+    background-color: black;
+}
+.black i{
+    font-size: 1.6rem;
+    color: white;
+}
+.bottom{
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+.left-b{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(137, 95, 44);
+}
+.b-text{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-text h4{
+    font-size: 1.8rem;
+    color: white;
+}
+.right-b{
+    width: 55%;
+    height: 25rem;
+    background-color: rgba(255, 255, 255, 0.578);
+    position: relative;
+    bottom: 12rem;
+    z-index: 9;
+}
+.right-b-text{
+    width: 100%;
+    height: 100%;
+    padding-inline: 2rem;
+    margin-top: 1rem;
+
+}
+.right-b-text h6{
+    font-size: 1.5rem;
+    color: black;
+}
+.right-b-text ul{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+}
+.right-b-text ul li h6{
+    font-size: 1.4rem;
+    color: rgb(56, 44, 44);
+}
+.right-b-text ul li p{
+    font-size: 1.4rem;
+    color: rgb(77, 67, 67);
+}
+
+
+
+
+/* Card */
+
+.card2{
+    background: url(./img/dinner-table-decoration-17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2-content{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.top-heading{
+    width: 90%;
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.607);
+    border-radius: 3rem;
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center
+}
+.top-heading h4{
+    font-size: 1rem;
+}
+.top-heading a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+}
+.top-heading a:hover{
+    color: brown;
+}
+.bottom-heading{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.607);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    border: 1px solid white;
+}
+
+.head{
+    width: 100%;
+    height: 40%;
+}
+.head span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.head span h3{
+    font-size: 1.6rem;
+}
+.head span h1{
+    font-size: 5rem;
+    padding-left: 2rem;
+}
+.head span{
+    font-size: 1.6rem;
+}
+.head-1{
+    width: 100%;
+    height:20%;
+}
+.head-1 p{
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+}
+
+
+
+/* Card3 */
+
+.card3{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card3-content{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card3-top{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(255, 192, 203, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card3-mid{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   background-color: rgba(165, 154, 154, 0.537);
+}
+.card3-mid-img{
+    width: 60%;
+    height:100%;
+    background: url(./img/Screenshot\ 2023-08-03\ 122423.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.card3-bottom{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.cursor{
+    width: 90%;
+    height: 20%;    
+}
+.cursor i{
+    font-size: 1.6rem;
+}
+.cursor i:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.468);
+}
+.card3-top-heading{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.card3-l-top{
+    width: 80%;
+    height: auto;
+    padding: .5rem;
+}
+.card3-l-top h4{
+    font-size: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+}
+.card3-l-top p{
+    font-size: 1.2rem;
+    color: rgb(59, 45, 45);
+    text-align: center;
+}
+.card3-r-top{
+    width: 20%;
+    height: auto;
+}
+.card3-box{
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card3-box i{
+    font-size: 1.6rem;
+    color: white;
+}
+.card3-box:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.242);
+}
+.card3-box i:hover{
+    cursor: pointer;
+    color: black;
+}
+.card3-bottom-box{
+    width: 49%;
+    height: 80%;
+}
+.card3-bottom-bimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card3-bottom-box:first-child{
+    background: url(./img/food-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3-bottom-box:nth-child(2){
+    background: url(./img/food-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3-bottom-head{
+
+    width: 90%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.card3-bottom-head p{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width:950px){
+    html{
+        font-size: 41%;
+    }
+}
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 40%;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .main-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        height: 80rem;
+        margin-bottom: 2rem;
+    }
+
+    .card:hover{
+        transition: all ease-in-out 2s;
+        transform: scale(90%);
+        filter: grayscale(100%);  
+    }
+    
+    
+}
